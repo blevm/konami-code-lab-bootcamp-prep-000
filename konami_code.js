@@ -7,8 +7,6 @@ let index = 0;
 function init() {
   // Write your JavaScript code inside the init() function
 
-const body = document.getElementsByTagName('div');
-
 function onKeyDownHandler(e) {
   const key = parseInt(e.detail || e.which || e.location);
 
@@ -25,6 +23,6 @@ function onKeyDownHandler(e) {
   }
 };
 
-body.addEventListener('keydown', onKeyDownHandler, true);
+document.body.addEventListener('keydown', onKeyDownHandler, true);
 
 }
