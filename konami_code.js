@@ -7,7 +7,7 @@ function init() {
 
 const body = document.getElementsByTagName('body');
 
-body.addEventListener('keydown', onKeyDownHandler());
+body.addEventListener('keydown', onKeyDownHandler(e));
 
 }
 
