@@ -21,7 +21,7 @@ body.addEventListener('keydown', function onKeyDownHandler(e) {
   } else {
     index = 0;
   }
-})
+});
 
 
 
