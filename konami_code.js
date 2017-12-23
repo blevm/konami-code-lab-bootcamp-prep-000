@@ -9,7 +9,7 @@ const body = document.getElementsByTagName('body');
 
 body.addEventListener('keydown', function(){
   onKeyDownHandler(event);
-});
+}, true);
 
 }
 
