@@ -7,7 +7,7 @@ let index = 0;
 function init() {
   // Write your JavaScript code inside the init() function
 
-const body = document.getElementsByTagName('body');
+const body = document.querySelectorAll('body');
 
 function onKeyDownHandler(e) {
   const key = parseInt(e.detail || e.which || e.location);
